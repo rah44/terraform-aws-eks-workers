@@ -536,12 +536,6 @@ variable "elastic_gpu_specifications" {
   default = null
 }
 
-variable "autoscaling_group_name" {
-  type        = string
-  default     = ""
-  description = "autoscaling_group_name"
-}
-
 variable "default_result" {
   type        = string
   default     = ""
