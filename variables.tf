@@ -549,7 +549,7 @@ variable "default_result" {
  }
 
 variable "heartbeat_timeout" {
-  type        = string
+  type        = number
   default     = 300
   description = "heartbeat_timeout"
  }
