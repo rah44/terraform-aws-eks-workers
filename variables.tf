@@ -554,12 +554,6 @@ variable "heartbeat_timeout" {
   description = "heartbeat_timeout"
  }
 
-variable "heartbeat_timeout" {
-  type        = string
-  default     = ""
-  description = "heartbeat_timeout"
- }
-
 variable "lifecycle_transition" {
   type        = string
   default     = ""
